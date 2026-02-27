@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Безопасные технологии</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Скрипты для версии слабовидящих -->
+    <script src="https://lidrekon.ru/slep/js/jquery.js"></script>
+    <script src="https://lidrekon.ru/slep/js/uhpv-full.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Логотип" class="logo__img"></a>
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="svedeniya.html" class="nav__link nav__link--highlighted">Сведения об
+                            образовательной организации</a></li>
+                    <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="courses.html" class="nav__link">Курсы</a></li>
+                    <li class="nav__item"><a href="contacts.html" class="nav__link nav__link--active">Контакты</a></li>
+                </ul>
+            </nav>
+            <!-- Кнопка для слабовидящих -->
+            <a id="specialButton" href="#">
+                <img src="https://lidrekon.ru/images/special.png" id='glazd' alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ"
+                    title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" />
+            </a>
+            <button class="nav-toggle"><span></span><span></span><span></span></button>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h1 class="section-title">Контакты</h1>
+            <div class="contacts__wrapper">
+                <div class="contacts__info">
+                    <p><i class="fas fa-map-marker-alt"></i> 693006, Россия, Сахалинская область, г. Южно-Сахалинск,
+                        ул. Пуркаева, д. 116, оф.804</p>
+                    <p><i class="fas fa-phone"></i> +7 (4242) 28-23-57</p>
+                    <p><i class="fas fa-envelope"></i> info@bezteh.ru</p>
+                    <p><i class="fas fa-clock"></i> Пн-Пт: 9:00 – 18:00</p>
+
+                    <!-- КРАСИВЫЕ КРУГЛЫЕ КНОПКИ СОЦСЕТЕЙ -->
+                    <div class="social-section">
+                        <h3 class="social-title">Мы в соцсетях</h3>
+                        <div class="social-circles">
+                            <a href="#" class="social-circle vk" target="_blank" rel="noopener noreferrer"
+                                title="ВКонтакте">
+                                <i class="fab fa-vk"></i>
+                            </a>
+                            <a href="#" class="social-circle telegram" target="_blank" rel="noopener noreferrer"
+                                title="Telegram">
+                                <i class="fab fa-telegram-plane"></i>
+                            </a>
+                            <a href="#" class="social-circle whatsapp" target="_blank" rel="noopener noreferrer"
+                                title="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contacts__form">
+                    <h3>Напишите нам</h3>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Сообщение" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="container">
+            <iframe
+                src="https://yandex.ru/map-widget/v1/?ll=142.760283%2C46.987045&z=17&pt=142.760283%2C46.987045&mode=search&text=693006%2C%20Россия%2C%20Сахалинская%20область%2C%20г.Южно-Сахалинск%2C%20ул.%20Пуркаева%2C%20д.%20116%2C%20оф.804"
+                width="100%" height="400" frameborder="0" allowfullscreen="true">
+            </iframe>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__col">
+                    <h3>О компании</h3>
+                    <p>ООО «Безопасные технологии» — обучение с 2015 года.</p>
+                </div>
+                <div class="footer__col">
+                    <h3>Быстрые ссылки</h3>
+                    <p><a href="svedeniya.html">Сведения об ОО</a></p>
+                    <p><a href="courses.html">Курсы</a></p>
+                    <p><a href="contacts.html">Контакты</a></p>
+                </div>
+                <div class="footer__col">
+                    <h3>Контакты</h3>
+                    <p>693006, Россия, Сахалинская область, г. Южно-Сахалинск, ул. Пуркаева, д. 116, оф.804</p>
+                    <p>Тел.: +7 (4242) 28-23-57</p>
+                    <p>Email: info@bezteh.ru</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 ООО «Безопасные технологии». Все права защищены.</p>
+                <p>Руководитель: Ляшок Сергей Анатольевич</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
